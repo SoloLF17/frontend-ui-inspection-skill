@@ -1,0 +1,13 @@
+{
+  "mcp": {
+    "servers": {
+      "browser": {
+        "type": "local",
+        "command": ["npx", "-y", "@playwright/mcp@latest"]
+      }
+    }
+  },
+  "permissions": [
+    { "action": "browser_*", "resource": "*", "effect": "allow" }
+  ]
+}
